@@ -9,7 +9,7 @@ let handler = async (m, { conn, isROwner, text }) => {
     m.reply(`Mengirim Broadcast Ke ${anu.length} Chat, Waktu Selesai ${anu.length * 0.5 } detik`)
     for (let i of anu) {
     await delay(500)
-    conn.sendHButtonLoc(i, await (await fetch(fla + 'Broadcast')).buffer(), `${pesan}`, wm, "CHAT OWNER", `wa.me/6289625556161`, `MENU`, `.menu`, null).catch(_ => _)
+    conn.sendHButtonLoc(i, await (await fetch(fla + 'Broadcast')).buffer(), `${pesan}`, wm, "CHAT OWNER", `wa.me/6282287750102`, `MENU`, `.menu`, null).catch(_ => _)
     }
   m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
 }
