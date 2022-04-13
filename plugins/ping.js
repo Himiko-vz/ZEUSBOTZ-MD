@@ -72,8 +72,8 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                  hydratedContentText: txt,
                  hydratedButtons: [{
                      urlButton: {
-                         displayText: 'MY WEBSITE',
-                         url: 'whatsapp:send?text=HI'
+                         displayText: 'MY INSTAGRAM 💌',
+                         url: 'https://instagram.com/en4y.pin'
                      }                
                  },
                  {
