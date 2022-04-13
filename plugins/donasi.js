@@ -10,7 +10,7 @@ let anu = `*─────� DONATE 」 ───*
 Hai 👋
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
 ┌〔 Donasi • Emoney 〕
-├🏧 089625556161 (OVO/Dana/GoPay)
+├🏧 082287750102 (OVO/Dana/GoPay)
 └────
 Berapapun donasi kalian akan sangat berarti 👍
 
@@ -30,7 +30,7 @@ wa.me/6289625556161 (Owner)
            hydratedButtons: [{
              urlButton: {
                displayText: 'MY GITHUB',
-               url: 'github.com/PilarV2'
+               url: 'github.com/AlpinHani'
              }
 
            },
