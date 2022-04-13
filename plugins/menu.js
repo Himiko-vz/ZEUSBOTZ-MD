@@ -15,27 +15,27 @@ let moment = require('moment-timezone')
 const defaultMenu = {
   before:`
 ╭─⃝▣「 TODAY 」
-│🎐 *Days:* %week %weton
-│🎐 *Date:* %date
-│🎐 *Islamic Date:* %dateIslamic
-│🎐 *Time:* %time
+│✾ *Days:* %week %weton
+│✾ *Date:* %date
+│✾ *Islamic Date:* %dateIslamic
+│✾ *Time:* %time
 ╰▣──···
 ╭─⃝▣ 「 INFO USER 」
-│🎐 Name: %name
-│🎐 Status: --
-│🎐 Limit: %limit
-│🎐 Money: %money
-│🎐 Exp: %totalexp
-│🎐 Level: %level
-│🎐 Role: %role
+│✾ Name: %name
+│✾ Status: --
+│✾ Limit: %limit
+│✾ Money: %money
+│✾ Exp: %totalexp
+│✾ Level: %level
+│✾ Role: %role
 ╰▣──···
 ╭─⃝▣ 「 INFO BOT 」
-│🎐 Mode: ${global.opts['self'] ? 'Self' : 'Publik'}
-│🎐 Memory Used : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB
-│🎐 Total Memory: ${Math.round(require('os').totalmem / 1024 / 1024)}MB
-│🎐 Runtime: %uptime ( %muptime )
-│🎐 Version: %version
-│🎐 Database: %rtotalreg dari %totalreg
+│✾ Mode: ${global.opts['self'] ? 'Self' : 'Publik'}
+│✾ Memory Used : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB
+│✾ Total Memory: ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+│✾ Runtime: %uptime ( %muptime )
+│✾ Version: %version
+│✾ Database: %rtotalreg dari %totalreg
 ╰▣──···
 ⃝▣「 *I N F O  C M D* 」
 │ *Ⓟ* = Premium
@@ -230,7 +230,7 @@ const q = {
       const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             title: ``,
-            description: `${ucapan()}\n\n*Silahkan Pilih List Menu*\n*Di Bawah Ya*`,
+            description: `${ucapan()}\n\n*Silahkan Pilih List Menu*\n*Di Bawah Ya Kak*`,
             buttonText: 'LIST MENU',
             listType: 1,
             footerText: global.wm,
@@ -443,14 +443,14 @@ const q = {
     let td = `${pickRandom([d1,d2,d3,d4,d5])}`
     const message = {
             document: { url: 'https://telegra.ph/file/f3253bf1fbe288cc9ffe2.jpg' },
-            jpegThumbnail: await fs.readFileSync('./src/welcome.jpg'), fileName: 'ZEUS BOT - MD', mimetype: td, fileLength: '99999999999999', pageCount: '999',
+            jpegThumbnail: await fs.readFileSync('./src/welcome.jpg'), fileName: 'ALPIN BOTZ - MD', mimetype: td, fileLength: '99999999999999', pageCount: '999',
             caption: text,
             footer: wm,
             templateButtons: [
                 {
                     urlButton: {
-                        displayText: 'MY WEBSITE 🌎',
-                        url: 'https://pilarv2.github.io/'
+                        displayText: 'MY INSTAGRAM 💌',
+                        url: 'https://instagram.com/en4y.pin'
                     }
                 },
                 {
@@ -517,18 +517,18 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "Selamat DiniHari🌃"
+  res = "Jangan lupa tidur ya Kak, lop you <3"
   if (time >= 4) {
-    res = "Selamat Pagi🏞️"
+    res = "Selamat Pagi 🏞️"
   }
   if (time > 10) {
-    res = "Selamat Siang🏙️"
+    res = "Selamat Siang 🏙️"
   }
   if (time >= 15) {
-    res = "Selamat Sore🌇"
+    res = "Selamat Sore 🌇"
   }
   if (time >= 18) {
-    res = "Selamat Malam🌌"
+    res = "Selamat Malam 🌌"
   }
   return res
 }
