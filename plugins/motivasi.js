@@ -21,8 +21,8 @@ ${pickRandom(global.motivasi)}
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: '📍instagram',
-               url: instagram
+               displayText: 'MY INSTAGRAM 💌',
+               url: 'https://instagram.com/en4y.pin'
              }
 
            },
