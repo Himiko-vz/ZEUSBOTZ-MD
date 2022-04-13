@@ -13,7 +13,7 @@ if (!text) return conn.reply(m.chat, 'Harap masukkan link\n\nContoh: .tiktok htt
     let readMore = more.repeat(4001)
 let anu = `*── 「 TIKTOK 」 ──*
 
-SILAHKAN PILIH`
+SILAHKAN PILIH DIBAWAH`
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
          hydratedTemplate: {
@@ -23,8 +23,8 @@ SILAHKAN PILIH`
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: 'MY WEBSITE',
-               url: 'https://pilarv2.github.io/'
+               displayText: 'MY INSTAGRAM 💌',
+               url: 'https://instagram.com/en4y.pin'
                }
                
              },
