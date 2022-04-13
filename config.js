@@ -66,7 +66,7 @@ global.APIKeys = { // APIKey Here
 // Sticker WM
 global.stiker_wait = 'Stiker sedang dibuat'
 global.packname = 'En4y.Pin'
-global.author = `En4y.Pin`
+global.author = `Follow`
 global.wm = 'ALPIN BOTZ - MD' 
 global.watermark = wm
 global.botdate = `❏ ${wktuh} H  ${wktum} M  ${wktus} S\n❏ ${week} ${date}`
