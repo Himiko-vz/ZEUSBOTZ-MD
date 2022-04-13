@@ -34,7 +34,7 @@ let info = `╭─────「 *❏ INFO BOT ❏* 」─────
 │ ▧ *Language : JavaScript*
 │ ▧ *Database : MongoDB*
 │ ▧ *Version : 1.8*
-│ ▧ *Owner : ${ow}*
+│ ▧ *Owner : @6282287750102*
 │ ▧ *Runtime : ${uptime}*
 │ ▧ *Speed : ${fakespeed} Ms*
 │ ▧ *Mode : ${global.opts['self'] ? 'Self' : 'Publik'}*
