@@ -17,7 +17,7 @@ Berapapun donasi kalian akan sangat berarti
 Arigatou! :)
 
 Contact person Owner:
-wa.me/6282287750102 (Owner)
+https://wa.me/6282287750102?text=Assalamu'alaikum+Bang+Donasi (Owner)
 
 *Donasi Via Follow Instagram Juga Boleh*`
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
