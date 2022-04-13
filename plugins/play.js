@@ -1,4 +1,5 @@
-const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys-md')
+//made by https://github.com/Paquito1923
+const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys')
 const { servers, yta, ytv } = require('../lib/y2mate')
 let fs = require('fs')
 let yts = require('yt-search')
@@ -31,45 +32,40 @@ let anu =  `
 *Judul:* ${title}
 *Ukuran File Audio:* ${filesizeF}
 *Ukuran File Video:* ${yt2.filesizeF}
-*Server y2mate:* ${usedServer}
-*link sumber:* 
-${vid.url}
+*Server y2mate:* ${usedServer}`
 
-`
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
          hydratedTemplate: {
            hydratedContentText: anu,
            locationMessage: { 
            jpegThumbnail: await (await fetch(thumb)).buffer() }, 
-           hydratedFooterText: `jika video tidak sesuai
-silahkan ketik .yta link YouTube untuk mengunduh audio
-dan ketik .ytv link YouTube Untuk Mengunduh Video`,
+           hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: 'MY GITHUB',
-               url: github
+               displayText: '📺 Go To Youtube!',
+               url: `${vid.url}`,
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'video 360p',
+               displayText: '🎥 Video',
                id: `.ytmp4 ${vid.url}`,
              }
 
             },
                {
              quickReplyButton: {
-               displayText: 'video 720p',
-               id: `.ytv720 ${vid.url}`,
-             }
+               displayText: '🎙️ Audio',
+               id: `.ytmp3 ${vid.url}`,
+             },
 
             },
                {
              quickReplyButton: {
-               displayText: 'Audio',
-               id: `.ytmp3 ${vid.url}`,
+               displayText: '🔍 Youtube Search',
+               id: `.yts ${vid.url}`,
              }
 
            }]
