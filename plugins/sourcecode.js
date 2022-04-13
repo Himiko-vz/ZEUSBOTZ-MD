@@ -24,14 +24,14 @@ let esce = `
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: 'MY GITHUB',
+               displayText: 'MY INSTAGRAM 💌',
                url: 'https://instagram.com/en4y.pin'
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'Ok Bang',
+               displayText: 'Ok Bang 🗿',
                id: '.menu',
              }
 
