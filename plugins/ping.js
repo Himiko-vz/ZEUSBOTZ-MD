@@ -43,7 +43,7 @@ let handler = async (m, { conn }) => {
     },
   message: { 
   "extendedTextMessage": {
-  "title": 'By Pilar',
+  "title": 'By Alpin',
         }
        } 
      }
