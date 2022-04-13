@@ -57,8 +57,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
            hydratedFooterText: wm,
            hydratedButtons: [{
             urlButton: {
-               displayText: 'MY WEBSITE',
-               url: 'https://pilarv2.github.io/'
+               displayText: 'MY INSTAGRAM 💌',
+               url: 'https://instagram.com/en4y.pin'
              }
 
            },
