@@ -12,14 +12,14 @@ Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
 ┌〔 Donasi • Emoney 〕
 ├🏧 082287750102 (OVO/Dana/GoPay)
 └────
-Berapapun donasi kalian akan sangat berarti 👍
+Berapapun donasi kalian akan sangat berarti
 
-Arigatou!
+Arigatou! :)
 
 Contact person Owner:
-wa.me/6289625556161 (Owner)
+wa.me/6282287750102 (Owner)
 
-*donasi via follow github juga boleh*`
+*Donasi Via Follow Instagram Juga Boleh*`
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
          hydratedTemplate: {
@@ -29,8 +29,8 @@ wa.me/6289625556161 (Owner)
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: 'MY GITHUB',
-               url: 'github.com/AlpinHani'
+               displayText: 'MY INSTAGRAM 💌',
+               url: 'https://instagram.com/en4y.pin'
              }
 
            },
