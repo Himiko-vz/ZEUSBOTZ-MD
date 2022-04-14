@@ -751,15 +751,15 @@ global.dfail = (type, m, conn) => {
     let user = global.db.data.users[who]
     let pp = fs.readFileSync('./src/welcome.jpg')
     let msg = {
-        rowner: '*CREATOR ONLY*',
-    owner: '*OWNER ONLY*',
-    mods: '*MODERATOR ONLY*',
-    premium: '*PREMIUM ONLY*',
-    group: '*GROUP ONLY*',
-    private: '*PRIVATE ONLY*',
-    admin: '*ADMIN ONLY*',
-    nsfw: '*NSFW NOT ACTIVE*',
-    botAdmin: '*BOT ADMIN ONLY*',      
+        rowner: 'CREATOR ONLY',
+    owner: 'OWNER ONLY',
+    mods: 'MODERATOR ONLY',
+    premium: 'PREMIUM ONLY',
+    group: 'GROUP ONLY',
+    private: 'PRIVATE ONLY',
+    admin: 'ADMIN ONLY',
+    nsfw: 'NSFW NOT ACTIVE',
+    botAdmin: 'BOT ADMIN ONLY',      
     restrict: 'Fitur ini di *disable*!'
     }[type]
     let des = {
@@ -775,7 +775,7 @@ global.dfail = (type, m, conn) => {
 Halo ${user.name}
 Yuk Daftar Dulu Karena Anda Belum Terdaftar Dalam Database Bot
     
-📍 Ketik : #daftar nama.umur
+📍 Ketik : #daftar Alpin.umur
 ▸ Contoh : #daftar ${user.name}.13`
     }[type]
     if (msg) return conn.sendHButtonLoc(m.chat,pp, des, msg, "GITHUB", github, `OWNER`, `.owner`, m)
