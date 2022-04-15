@@ -7,16 +7,7 @@ const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessa
 let handler = async (m, { conn, command, usedPrefix, text }) => {
 let fs = require('fs')
 let esce = `
-           「  SC BOT MD  」
-╭─❑
-│✾ SCRIPT: PRIVATE 🔒
-│✾ BASE: https://github.com/ilmanhdyt/ShiraoriBOT-Md
-╰─❑
-         「  SC BOT NON MD 」
-╭─❑
-│✾ https://github.com/PilarV2/Zeus-BotzV2
-│✾ https://github.com/PilarV2/Zeus-BotzV5
-╰─❑`
+Di Private ama Owner Bang:v`
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
          hydratedTemplate: {
