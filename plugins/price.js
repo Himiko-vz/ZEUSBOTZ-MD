@@ -17,10 +17,10 @@ let premium = `
 └───────
  └✅ Unlimited Limit 
  └✅ Premium User 
- └❎ Add Bot to Group 
+ └✅ Add Bot to Group 
    └  ▹  *Rp. 5.000*
      └ Expired 3 hari
- └ Order | hub : owner
+ └ Order/Hubungi : Owner
 `
      const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
@@ -28,7 +28,7 @@ let premium = `
             description: premium,
             buttonText: 'Click Here!',
             listType: 1,
-            footerText: `Created By Pilar`,
+            footerText: `Created By Alpin`,
             mtype: 'listMessage',
             sections: [
               {
