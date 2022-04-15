@@ -217,7 +217,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
             templateButtons: [
                 {
                     urlButton: {
-                        displayText: '📍MY INSTAGRAM',
+                        displayText: 'MY INSTAGRAM 📍',
                         url: 'https://instagram.com/en4y.pin'
                     }
                 },
