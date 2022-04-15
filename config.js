@@ -71,7 +71,7 @@ global.wm = 'ALPIN BOTZ - MD'
 global.watermark = wm
 global.botdate = `❏ ${wktuh} H  ${wktum} M  ${wktus} S\n❏ ${week} ${date}`
 global.media = 'https://telegra.ph/file/ccb2359d3925fd7af58cd.jpg'
-global.github = 'https://github.com/PilarV2'
+global.github = 'https://github.com/AlpinHani'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&doScale=true&scaleWidth=500&scaleHeight=500&fontsize=100&fillTextType=0&backgroundColor=%23401620&text='
 global.wait = '_*L O A D I N G*_'
 global.eror = '_*Server Error*_'
