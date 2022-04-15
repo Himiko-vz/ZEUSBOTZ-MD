@@ -23,7 +23,7 @@ function pickRandom(list) {
 }
 global.owner = ['6282287750102'] // Put your number here
 global.mods = ['6282287750102'] // Want some help?
-global.prems = [] // Premium user has unlimited limit
+global.prems = ['6282287750102'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   amel: 'https://melcanz.com',
