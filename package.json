@@ -1,5 +1,5 @@
 {
-    "name": "ALPINBOTZ-MD",
+    "name": "Himiko-MD",
     "version": "3.5.4",
     "description": "Bot WhatsApp Multi Device",
     "depecrated": false,
@@ -25,7 +25,7 @@
     ],
     "homepage": "https://github.com/PilarV2/ZEUSBOTZ-MD",
     "author": {
-        "name": "AlpinV2"
+        "name": "Kevin"
     },
     "repository": {
         "type": "git",
