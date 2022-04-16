@@ -22,7 +22,7 @@ ${pickRandom(global.motivasi)}
            hydratedButtons: [{
              urlButton: {
                displayText: 'MY INSTAGRAM 💌',
-               url: 'https://instagram.com/en4y.pin'
+               url: 'https://instagram.com/kevinafsar_'
              }
 
            },
