@@ -235,7 +235,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 ┗━━━━━━━━━━━━━━━⬣`,
             buttonText: 'LIST MENU',
             listType: 1,
-            footerText: "𝘾𝙍𝙀𝘼𝙏𝙀𝘿 𝘽𝙔 𝘼𝙇𝙋𝙄𝙉",
+            footerText: "BY KEVIN AFSAR",
             mtype: 'listMessage',
             sections: [
               {
@@ -417,7 +417,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
            hydratedButtons: [{
             urlButton: {
                displayText: '📍MY INSTAGRAM',
-               url: 'https://instagram.com/en4y.pin'
+               url: 'https://instagram.com/kevinafsar_'
              }
 
            },
