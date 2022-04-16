@@ -28,7 +28,7 @@ let premium = `
             description: premium,
             buttonText: 'Click Here!',
             listType: 1,
-            footerText: `Created By Alpin`,
+            footerText: `Created By Kevin`,
             mtype: 'listMessage',
             sections: [
               {
