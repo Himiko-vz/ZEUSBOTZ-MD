@@ -24,7 +24,7 @@ SILAHKAN PILIH DIBAWAH`
            hydratedButtons: [{
              urlButton: {
                displayText: 'MY INSTAGRAM 💌',
-               url: 'https://instagram.com/en4y.pin'
+               url: 'https://instagram.com/Kevinafsar_'
                }
                
              },
