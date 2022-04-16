@@ -65,9 +65,9 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.stiker_wait = 'Stiker sedang dibuat'
-global.packname = 'En4y.Pin'
+global.packname = 'KEVINAFSAR_'
 global.author = `Follow`
-global.wm = 'ALPIN BOTZ - MD' 
+global.wm = 'HIMIKO - MD' 
 global.watermark = wm
 global.botdate = `❏ ${wktuh} H  ${wktum} M  ${wktus} S\n❏ ${week} ${date}`
 global.media = 'https://telegra.ph/file/ccb2359d3925fd7af58cd.jpg'
