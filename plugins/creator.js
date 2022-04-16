@@ -6,9 +6,9 @@ let ftroli = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid":
                     + 'N:; Alpin;;;'
                     + 'FN: Alpin\n' // full name
                     + 'ORG:Alpin;\n' // the organization of the contact
-                    + 'TEL;type=CELL;type=VOICE;waid=6282287750102:+62-822-8775-0102\n' // WhatsApp ID + phone number
+                    + 'TEL;type=CELL;type=VOICE;waid=6283131214121:+62 831-3121-4121\n' // WhatsApp ID + phone number
                     + 'END:VCARD'
-                conn.sendMessage(m.chat, { contacts: { displayName: 'Alpin', contacts: [{ vcard }] } }, { quoted: ftroli })
+                conn.sendMessage(m.chat, { contacts: { displayName: 'kevin', contacts: [{ vcard }] } }, { quoted: ftroli })
 m.reply(m.chat,'*Tuh nomor owner ku*\n*Chat jika PENTING*', m)
 }
 handler.help = ['owner', 'creator']
