@@ -764,7 +764,7 @@ global.dfail = (type, m, conn) => {
     }[type]
     let des = {
     rowner: `Hai, ${user.name} 👋\nFitur Ini hanya khusus Developer bot!!`,
-    owner: `Hai, ${user.name} 👋\nFitur Ini hanya khusus Owner bot!!`,
+    owner: `Hai, ${user.name} 👋\nLu kagak owner gua!!`,
     mods: `Hai, ${user.name} 👋\nFitur Ini hanya khusus Moderator bot!!`,
     premium: `Hai, ${user.name} 👋\nFitur Ini hanya khusus user Premium!!`,
     group: `Hai, ${user.name} 👋\nFitur Ini hanya bisa dipakai didalam group!!`,
@@ -775,7 +775,7 @@ global.dfail = (type, m, conn) => {
 Halo ${user.name}
 Yuk Daftar Dulu Karena Anda Belum Terdaftar Dalam Database Bot
     
-📍 Ketik : #daftar Alpin.umur
+📍 Ketik : #daftar kevin.umur
 ▸ Contoh : #daftar ${user.name}.13`
     }[type]
     if (msg) return conn.sendHButtonLoc(m.chat,pp, des, msg, "GITHUB", github, `OWNER`, `.owner`, m)
