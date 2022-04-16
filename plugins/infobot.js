@@ -34,7 +34,7 @@ let info = `╭─────「 *❏ INFO BOT ❏* 」─────
 │ ▧ *Language : JavaScript*
 │ ▧ *Database : MongoDB*
 │ ▧ *Version : 1.8*
-│ ▧ *Owner : @6282287750102*
+│ ▧ *Owner : @6283131214121*
 │ ▧ *Runtime : ${uptime}*
 │ ▧ *Speed : ${fakespeed} Ms*
 │ ▧ *Mode : ${global.opts['self'] ? 'Self' : 'Publik'}*
@@ -58,7 +58,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
            hydratedButtons: [{
             urlButton: {
                displayText: 'MY INSTAGRAM 💌',
-               url: 'https://instagram.com/en4y.pin'
+               url: 'https://instagram.com/kevinafsar_'
              }
 
            },
