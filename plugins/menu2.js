@@ -169,14 +169,14 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            hydratedButtons: [{
              urlButton: {
                displayText: '📍Instagram',
-               url: instagram
+               url: https://www.instagram.com/Kevinafsar_
              }
 
            },
              {
              urlButton: {
                displayText: 'Owner',
-               PhoneNumber: 'https://wa.me/6287892711054'
+               PhoneNumber: 'https://wa.me/6283131214121'
              }
 
            },
