@@ -10,14 +10,14 @@ let anu = `*─────� DONATE 」 ───*
 Hai 👋
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
 ┌〔 Donasi • Emoney 〕
-├🏧 082287750102 (OVO/Dana/GoPay)
+├🏧 - (OVO/Dana/GoPay)
 └────
 Berapapun donasi kalian akan sangat berarti
 
 Arigatou! :)
 
 Contact person Owner:
-https://wa.me/6282287750102?text=Assalamu'alaikum+Bang+Donasi (Owner)
+https://wa.me/6283131214121?text=Assalamu'alaikum+Bang+Donasi (Owner)
 
 *Donasi Via Follow Instagram Juga Boleh*`
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -30,7 +30,7 @@ https://wa.me/6282287750102?text=Assalamu'alaikum+Bang+Donasi (Owner)
            hydratedButtons: [{
              urlButton: {
                displayText: 'MY INSTAGRAM 💌',
-               url: 'https://instagram.com/en4y.pin'
+               url: 'https://instagram.com/Kevinafsar_'
              }
 
            },
